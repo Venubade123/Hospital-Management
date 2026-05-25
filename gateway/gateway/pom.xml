@@ -54,6 +54,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- CORRECT - use webflux for Gateway -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
+			<version>2.6.0</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
